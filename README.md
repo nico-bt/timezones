@@ -1,7 +1,7 @@
 # World clock
 
 Aplicación que muestra diferentes timezones elegidos por el usuario.  
-Esos timezones se obtienen desde [la siguiente API](http://worldtimeapi.org/) y se agregan a la app desde un search box que tiene autocomplete.
+Estos timezones se obtienen desde [la siguiente API](http://worldtimeapi.org/) y se agregan a la app desde un search box que tiene autocomplete.
 
 - Next, React
 - Material UI
