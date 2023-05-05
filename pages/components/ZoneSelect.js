@@ -43,7 +43,7 @@ export default function ZoneSelect({ countries, setUserAddedZones, setError }) {
         id="combo-box-countries"
         options={countries}
         isOptionEqualToValue={(option, value) => option.value === value.value}
-        sx={{ width: 400 }}
+        sx={{ width: { xs: 300, sm: 400 } }}
         renderInput={(params) => (
           <TextField {...params} label="Choose a zone" />
         )}

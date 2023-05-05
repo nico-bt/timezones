@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer className="footer">
       <p>
-        Using the API:{" "}
+        Using API:{" "}
         <a href="https://worldtimeapi.org/" target="_blank">
           worldtimeapi.org
         </a>
