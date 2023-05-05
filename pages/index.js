@@ -19,7 +19,7 @@ export default function Home() {
       setError(false)
       setIsLoading(true)
       try {
-        const res = await fetch("http://worldtimeapi.org/api/timezone")
+        const res = await fetch("https://worldtimeapi.org/api/timezone")
         const data = await res.json()
         setValidTimezones(data)
         setIsLoading(false)

@@ -11,7 +11,7 @@ export default function ZoneSelect({ countries, setUserAddedZones, setError }) {
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
-      const res = await fetch(`http://worldtimeapi.org/api/timezone/${value}`)
+      const res = await fetch(`https://worldtimeapi.org/api/timezone/${value}`)
       const timezoneData = await res.json()
 
       const dateString = timezoneData.datetime.substring(0, 19)
