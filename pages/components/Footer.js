@@ -3,7 +3,7 @@ function Footer() {
     <footer className="footer">
       <p>
         Using the API:{" "}
-        <a href="http://worldtimeapi.org/" target="_blank">
+        <a href="https://worldtimeapi.org/" target="_blank">
           worldtimeapi.org
         </a>
       </p>
